@@ -5,7 +5,7 @@
 import * as E from "./engine.js";
 import * as DB from "./db.js";
 
-const VERSIONE_APP = "1.0.1";
+const VERSIONE_APP = "1.0.2";
 const GIORNI_PROMEMORIA_BACKUP = 7;
 
 const S = { eventi: [], calc: null, tab: "oggi", mese: null, meta: {}, wizard: null };
