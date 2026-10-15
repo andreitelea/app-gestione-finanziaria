@@ -1,5 +1,7 @@
 # Soldi
 
+**Apri l'app: https://andreitelea.github.io/app-gestione-finanziaria/**
+
 App per iPhone (PWA) per gestire i soldi con il metodo del **mese in anticipo**:
 ogni entrata mensile paga le spese ricorrenti e gli accantonamenti del mese successivo,
 e quello che resta sono i **Soldi** liberi, sempre aggiornati al centesimo.
@@ -10,7 +12,7 @@ e quello che resta sono i **Soldi** liberi, sempre aggiornati al centesimo.
 
 ## Installazione su iPhone
 
-1. Apri il link dell'app con **Safari**.
+1. Apri **https://andreitelea.github.io/app-gestione-finanziaria/** con **Safari**.
 2. Tocca **Condividi** → **Aggiungi alla schermata Home**.
 3. Apri **Soldi** dall'icona: si apre a schermo intero, come un'app.
 
