@@ -36,7 +36,7 @@ si può correggere o eliminare.
 ## Backup
 
 I dati esistono solo sul telefono. **Impostazioni → Backup → Esporta** crea il file
-`soldi-backup.json` da salvare in iCloud Drive (conviene tenerne 2–3).
+`soldi-backup-AAAA-MM-GG.json` da salvare in iCloud Drive (conviene tenerne 2–3).
 L'app ricorda di farlo se l'ultimo backup ha più di 7 giorni.
 
 Attenzione: eliminare l'icona dalla schermata Home cancella i dati.

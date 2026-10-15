@@ -1,6 +1,6 @@
 // Soldi — service worker: tiene una copia dei file dell'app per aprirla anche offline.
 // Quando pubblichi una nuova versione, cambia VERSIONE: i telefoni scaricheranno i file nuovi.
-const VERSIONE = "soldi-v1.0.0";
+const VERSIONE = "soldi-v1.0.1";
 const FILE = [
   "./", "./index.html", "./styles.css", "./app.js", "./engine.js", "./db.js",
   "./manifest.webmanifest", "./icons/icon-180.png", "./icons/icon-192.png", "./icons/icon-512.png",

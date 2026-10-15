@@ -5,7 +5,7 @@
 import * as E from "./engine.js";
 import * as DB from "./db.js";
 
-const VERSIONE_APP = "1.0.0";
+const VERSIONE_APP = "1.0.1";
 const GIORNI_PROMEMORIA_BACKUP = 7;
 
 const S = { eventi: [], calc: null, tab: "oggi", mese: null, meta: {}, wizard: null };
@@ -512,12 +512,12 @@ function fatturaSheet(id) {
 
 async function esporta() {
   const testo = JSON.stringify(E.creaBackup(S.eventi), null, 1);
-  const nome = "soldi-backup.json";
+  const nome = "soldi-backup-" + oggi() + ".json"; // con la data: si capisce subito qual è il più recente
   let fatto = false;
   try {
     const file = new File([testo], nome, { type: "application/json" });
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
-      await navigator.share({ files: [file], title: "Backup Soldi" });
+      await navigator.share({ files: [file] }); // solo il file: con un titolo iOS salva anche un file di testo
       fatto = true;
     }
   } catch (err) {
