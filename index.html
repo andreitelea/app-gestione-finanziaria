@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Soldi</title>
+  <meta name="description" content="Gestione dei soldi con il metodo del mese in anticipo. I dati restano sul tuo telefono.">
+  <meta name="theme-color" content="#EEF1F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0F1418" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Soldi">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app"><p class="empty">Apro i tuoi conti…</p></main>
+  <nav class="tabs" id="tabs" role="tablist" hidden>
+    <button class="tab" role="tab" data-tab="oggi">Oggi</button>
+    <button class="tab" role="tab" data-tab="movimenti">Movimenti</button>
+    <button class="tab" role="tab" data-tab="prenotate">Prenotate</button>
+    <button class="tab" role="tab" data-tab="impostazioni">Impostazioni</button>
+  </nav>
+  <input type="file" id="fileBackup" accept="application/json,.json" hidden>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
